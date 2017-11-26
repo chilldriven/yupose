@@ -1,0 +1,27 @@
+parserOptions:
+  ecmaVersion: 2017
+  sourceType: module
+  ecmaFeatures:
+    experimentalObjectRestSpread: true
+
+globals:
+  Konva: true
+  
+env:
+  browser: true
+  es6: true
+
+rules:
+  keyword-spacing: error
+  no-debugger: error
+  no-dupe-args: error
+  no-dupe-keys: error
+  no-duplicate-case: error
+  no-ex-assign: error
+  no-unreachable: error
+  no-console: error
+  valid-typeof: error
+  no-useless-concat: error
+  no-fallthrough: error
+  no-undef: error
+  no-unused-vars: error

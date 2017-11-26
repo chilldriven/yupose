@@ -1,0 +1,48 @@
+html {
+  --primary-color: rgb(98, 13, 42);
+  --dark-color: rgba(38, 26, 33, 1);
+
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    var(--dark-color) 5%,
+    var(--primary-color) 50%
+  );
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.credentials {
+}
+
+.credentials__row {
+  color: #dec8c899;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.credentials__name {
+  font-size: 40px;
+}
+
+.credentials__author {
+  margin-top: 80px;
+  font-size: 16px;
+}
